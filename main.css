@@ -54,9 +54,14 @@ li{
     padding-top: 15px;        
     color: white;
     display: grid;
-    text-align: center;
+    text-align: center; 
+    display: grid;
     margin-top: -148px;
-   
+    grid-template-columns: 50% 35%;
+    grid-template-rows: 7% 7% 7% 7% 7% 7%;    
+}
+.cell{
+    padding: 2px;
 }
 .menu-bar-container{
     overflow: hidden;
@@ -64,14 +69,15 @@ li{
     padding: 1px;
     margin-top: 0px;
     background-color: #e4e8e8;
-    padding-left: 100px;
+    padding-left: 110px;
     width: 83%;
     grid-template-columns: 14% 22% 11% 12% 12% 12% 9% 13%;
-}
+} 
+
 .elements{  
     padding: 2px;
 }
-#color-box{
+#color-box{     
     margin-left: 345px ;
     padding-top: 30px;
     padding-left: 40px;
@@ -104,7 +110,7 @@ li{
     border: 1px solid black;  
 }
 .table-container{
-    margin-left: 320px;
+    margin-left: 300px;
 }
 .styled-table {
     border-collapse: collapse;
@@ -112,34 +118,35 @@ li{
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(137, 64, 64, 0.15);
+    width: 98%;
+    padding-left: 300px;
 
     
-}
-.styled-table thead tr {
-    background-color: #15546d;
+}  
+
+/* .styled-table thead tr {
+    background-color: green;
     width: 100%;
-    color: #ffffff;
-    text-align: left;
-    border: solid black 4px;
-    border-left: 0px;
-    border-right: 0px;
     
-    
+} */
+.top-container{
+    background: #d1e7f6;
+    border-bottom: solid black 1px;
     
 }
- .styled-table tbody tr{
-    overflow: hidden;
+.con{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 0px;
+
+}
+
+.st1{
+    padding-bottom: 40px;
     
-} 
-tr:nth-child(odd) {
-    background-color:  #e7e7e7;
-  }
-.styled-table th,
-.styled-table td {
-    padding: 10px 118px 20px 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: clip;
-    
+}
+.pa{
+    margin-left: 20px;
+    padding-left: 30px;
 }
